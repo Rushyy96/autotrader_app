@@ -1,15 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import { CustomButton } from '.';
+import { CustomButton } from ".";
 
 const Hero = () => {
-    const handleScroll = () => {
-
-    }
+  const handleScroll = () => {};
   return (
     <div className="hero">
-      <div className="flex-1 pt-36 padding-x">
+      <div className="flex-1 pt-36 padding-x text-center">
         <h1 className="hero__title">
           Find, book or rent a car -- quickly and easily!{" "}
         </h1>
@@ -21,7 +19,7 @@ const Hero = () => {
 
         <CustomButton
           title="Explore Cars"
-          containerStyles="bg-primary-blue text-white rounded-full mt-10"
+          containerStyles="bg-primary-blue text-white rounded-full mt-10 mx-auto"
           handleClick={handleScroll}
           btnType="button"
         />
@@ -34,6 +32,6 @@ const Hero = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Hero
+export default Hero;
