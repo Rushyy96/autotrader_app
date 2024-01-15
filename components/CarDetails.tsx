@@ -117,3 +117,4 @@ const CarDetails = ({ isOpen, closeModal, car }: CarDetailsProps) => {
 };
 
 export default CarDetails;
+
